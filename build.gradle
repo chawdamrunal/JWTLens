@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.jwtlens'
+version = '1.0.0'
+
+java {
+    sourceCompatibility = JavaVersion.VERSION_17
+    targetCompatibility = JavaVersion.VERSION_17
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'net.portswigger.burp.extensions:montoya-api:2025.4'
+    implementation 'com.google.code.gson:gson:2.11.0'
+}
+
+jar {
+    archiveBaseName = 'jwtlens'
+    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
+    from {
+        configurations.runtimeClasspath.collect { it.isDirectory() ? it : zipTree(it) }
+    }
+}
