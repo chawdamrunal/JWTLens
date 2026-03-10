@@ -4,6 +4,9 @@
 
 JWTLens is a Burp Suite extension that automatically detects and tests JSON Web Tokens (JWTs) for security vulnerabilities. It performs **56 security checks** covering the complete JWT attack surface — from passive analysis of token configuration to active exploitation of signature bypasses, algorithm confusion, header injection, and more.
 
+![a-modern-vector-style-logo-banner-featur_fq0GVcNLQw-JF3kfVY4Rww__0gZEU7xRAml4RnpKeJk0w_sd](https://github.com/user-attachments/assets/d462bafc-1131-4695-90ef-6066ef537e0f)
+
+
 JWTLens adds two dedicated tabs in Burp Suite's top bar: **JWTLens** (findings dashboard) and **JWT Forge** (live token editor and signer). It also passively extracts secrets and keys from JavaScript files and API responses to supercharge its active attacks.
 
 ![JWTLens — Burp site map with JWT findings](images/jwtlense01.png)
