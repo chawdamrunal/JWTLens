@@ -218,7 +218,7 @@ You need Java 17 or later and Burp Suite Professional or Community Edition (2024
 ### Building from Source
 
 ```
-git clone https://github.com/AadityaKGupta/JWTLens.git
+git clone https://github.com/chawdamrunal/JWTLens.git
 cd JWTLens/jwtlens-burp
 ./gradlew clean jar
 ```
