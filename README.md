@@ -4,6 +4,9 @@
 
 JWTLens is a Burp Suite extension that automatically detects and tests JSON Web Tokens (JWTs) for security vulnerabilities. It performs **56 security checks** covering the complete JWT attack surface — from passive analysis of token configuration to active exploitation of signature bypasses, algorithm confusion, header injection, and more.
 
+JWTLens is a JWT decoder and security testing tool for analyzing JSON Web Tokens.
+It helps detect vulnerabilities like algorithm confusion, signature bypass, and weak validation.
+
 ![a-modern-vector-style-logo-banner-featur_fq0GVcNLQw-JF3kfVY4Rww__0gZEU7xRAml4RnpKeJk0w_sd](https://github.com/user-attachments/assets/d462bafc-1131-4695-90ef-6066ef537e0f)
 
 
@@ -398,3 +401,5 @@ MIT License
 ## Credits
 
 Built by the JWTLens team. Inspired by the JWT security research community and the OWASP Testing Guide.
+
+## Developed by Mrunal Chawda
